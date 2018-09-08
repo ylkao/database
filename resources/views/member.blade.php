@@ -3,9 +3,9 @@
 @section('content')
 <div class="container">
     <h2>Member List</h2>
-    <div class="container">
+    <!--<div class="container">
         <a href="/newmember" class="btn btn-primary">Add new member</a>
-    </div>
+    </div> Need to add functionality for adding a new member eventually-->
     <br>
     <table class="table" id="members">
         <thead><tr>

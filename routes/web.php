@@ -13,18 +13,7 @@
 
 Route::get('/', 'RecordsController@index');
 
-//Auth::routes(); removing Registration routes
-// Authentication Routes...
-Route::get('login', 'Auth\AuthController@showLoginForm');
-Route::post('login', 'Auth\AuthController@login');
-Route::get('logout', 'Auth\AuthController@logout');
-
-// Registration Routes... removed!
-
-// Password Reset Routes...
-Route::get('password/reset/{token?}', 'Auth\PasswordController@showResetForm');
-Route::post('password/email', 'Auth\PasswordController@sendResetLinkEmail');
-Route::post('password/reset', 'Auth\PasswordController@reset');
+Auth::routes();
 
 Route::get('/record','RecordsController@add');
 Route::post('/record','RecordsController@create');

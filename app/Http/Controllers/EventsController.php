@@ -9,6 +9,10 @@ use App\Event;
 
 class EventsController extends Controller
 {
+
+    /**
+     Create the array of events with the relevant info to display
+    */
     public function event() {
         $user = Auth::user();
         $records = $user->records;
