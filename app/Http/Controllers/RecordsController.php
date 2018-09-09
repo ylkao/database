@@ -17,6 +17,10 @@ class RecordsController extends Controller
 
     public function list() {
         $user = Auth::user();
+        /* CLEARS OUT ALL THE DATA: DO NOT UNCOMMENT
+        foreach($user->records as $record) {
+            $record->delete();
+        }*/
         return view('list', compact('user'));
     }
 

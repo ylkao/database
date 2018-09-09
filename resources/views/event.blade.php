@@ -10,10 +10,10 @@
     <table class="table" id="events">
         <thead><tr>
             <th>Term</th>
-            <th>Event</th>
+            <th>Event </th>
             <th>Date</th>
             <th>Attendance Count</th>
-            <th>Members</th>
+            <th>Members </th>
         </tr>
     </thead>
     <tbody>

@@ -8,9 +8,9 @@
 
     <div class="form-group">
     	<label class="col-2 col-form-label"> Term </label> <div class="col-10"> <input type="text" name="term" class="form-control"></div>
-        <label class="col-2 col-form-label"> Event </label> <div class="col-10"><input type="text" name="event" class="form-control"></div>
+        <label class="col-2 col-form-label"> Event</label> <div class="col-10"><input type="text" name="event" class="form-control"></div>
         <label class="col-2 col-form-label"> Date </label> <div class="col-10"><input type="date" name="date" class="form-control"></div>
-        <label class="col-2 col-form-label"> Members </label> <div class="col-10"><textarea class="form-control" name="name" rows="5"></textarea> </div>
+        <label class="col-2 col-form-label"> Members</label> <div class="col-10"><textarea class="form-control" name="name" rows="5"></textarea> </div>
     </div>
 
 

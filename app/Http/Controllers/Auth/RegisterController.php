@@ -70,7 +70,7 @@ class RegisterController extends Controller
         ]);
     }
 
-    //prevent new registrations
+    //prevent new registrations, https://stackoverflow.com/questions/29183348/how-to-disable-registration-new-user-in-laravel-5
     /*
     * Disabling registeration.
     *
